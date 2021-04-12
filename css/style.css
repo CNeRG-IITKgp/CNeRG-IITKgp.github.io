@@ -432,7 +432,8 @@ hr {
 ============================ */
 
 .service-icon {
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
+	font-size: 20px
 }	
 
 
