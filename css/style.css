@@ -59,7 +59,6 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-	
 }
 
 .navbar-brand {
@@ -83,7 +82,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.8);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -94,7 +93,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+	color: #000;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -111,7 +110,7 @@ a:focus {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
-	border-bottom: 1px solid #f5f5f5;
+	border-bottom: 1px solid #f0f0f0;
 
 }
 
@@ -315,12 +314,11 @@ hr {
 }
 
 #intro.intro {
-	padding:10% 0 0 0;
+	padding: 10% 0 0 0;
 }
 
 .intro .slogan {
 	text-align: center;
-
 }
 
 .intro .page-scroll {
