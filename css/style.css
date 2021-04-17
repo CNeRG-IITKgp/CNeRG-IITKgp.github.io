@@ -75,6 +75,8 @@ a:focus {
 	color: #fff;
   font-size: 20px;
   line-height: 40px;
+  color: #000;
+  text-shadow: 1px 1px 1px #FFF
 }
 
 .navbar-brand:focus {
@@ -82,7 +84,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(103,176,209,.7);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -102,7 +104,7 @@ a:focus {
 	    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+	color: #000;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -123,11 +125,11 @@ a:focus {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	background: #fefefe;
+	background: #f0f0f0;
 }
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #666;
+	color: #000;
 }
 
 .navbar-custom .nav li a {
@@ -140,13 +142,13 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
 }
 
 .navbar-toggle {
@@ -314,7 +316,7 @@ hr {
 }
 
 #intro.intro {
-	padding: 10% 0 0 0;
+	padding: 9% 0 0 0;
 }
 
 .intro .slogan {
@@ -346,12 +348,13 @@ hr {
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
-	text-shadow: -1px 0 1px #000;
+	text-shadow: 1px 0 1px #000;
 }
 
 .intro .slogan h4 {
 	color: #fff;
-	text-shadow: -1px 1px 1px #000;
+	text-shadow: 1px 1px 1px #000;
+  margin: 5px 0 0 0;
 }
 
 
